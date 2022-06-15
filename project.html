@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieSpace</title>
+    <link rel="icon" href="home/headericon.jpg">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body style="background: #333333;">
+    <!-- Navbar (sit on top) -->
+    <nav>
+        <ul>
+            <a href="project.html"><img src="home/logo1.png" style="height: 50px; margin-right: 280px; margin-top: 8px;"></a>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Genre</a>
+                <ul>
+                    <li><a href="">Action</a></li>
+                    <li><a href="">Biography</a></li>
+                    <li><a href="">Drama</a></li>
+                    <li><a href="">Sci-Fi</a></li>
+                    <li><a href="">Horror</a></li>
+                    <li><a href="">Thriller</a></li>
+                    <li><a href="">Comedy</a></li>
+                    <li><a href="">Documentary</a></li>
+                    <li><a href="">Fantasy</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Language</a>
+                <ul>
+                    <li><a href="">English</a></li>
+                    <li><a href="">Spanish</a></li>
+                    <li><a href="">Korean</a></li>
+                    <li><a href="">Chinese</a></li>
+                    <li><a href="">Japanese</a></li>
+                    <li><a href="">Nepali</a></li>
+                </ul>
+            </li>
+            <li><a href="#movie">Movies</a></li>
+            <li><a href="#show">TV Shows</a></li>
+            <li><a href="#sign">Sign Up</a></li>
+        </ul>
+    </nav>
+    <div class="search">
+        <form action="" class="searchbar">
+            <input type="text" placeholder="Search movies, tv shows..." name="q">
+            <button type="submit"><img src="home/search.png"></button>
+        </form>
+    </div>
+    <!-- End Navbar -->
+    
+    <!-- Body -->
+    
+    <!-- Trending -->
+    <div class="container">
+        <p style="border-left: 5px solid red; padding-left: 5px;">Trending
+        <div class="row">
+            <div class="col-md-8" style="height: 650px;">
+                <div class="image"><img src="home/topimage.avif" class="img-thumbnail" style="width: 100%; height: 500px;" alt="">
+                <div class="middle">
+                    <a href="topgun.html" style="text-decoration: none;"><div class="text">See More</div></a>
+                </div>
+                 </div>
+                <div class="caption"><p style="margin-top: 0%;"data-bs-toggle="tooltip" title="Top Gun: Maverick"><a href="topgun.html" style="text-decoration: none;">Top Gun: Maverick</a></p></div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12" style="height: 250px;">
+                        <div class="image"><img src="home/topright.jpg" class="img-thumbnail" style="width: 100%; height: 250px;" alt="">
+                            <div class="middle">
+                                <a href="jurassic.html" style="text-decoration: none;"><div class="text">See More</div></a>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <p style="font-size: 30px; margin-top:0%;" data-bs-toggle="tooltip" title="Jurassic World: Dominion"><a href="jurassic.html" style="text-decoration: none; ">Jurassic World: Dominion</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-12" style="height: 250px; margin-top: 50px;">
+                        <div class="image"><img src="home/bottomright.webp" class="img-thumbnail" style="width: 100%; height: 250px;" alt="">
+                            <div class="middle">
+                                <a href="doctor.html" style="text-decoration: none;"><div class="text">See More</div></a>
+                            </div>
+                        </div>
+                        <div class="caption"><p style="font-size: 30px; margin-top: 0%;" data-bs-toggle="tooltip" title="Doctor Strange in the Multiverse of Madness"> <a href="doctor.html" style="text-decoration: none;">Doctor Strange in the Multiverse of Madness</a></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Trending -->
+   
+    <!-- Latest Movies -->
+    <div class="container" id="movie">
+        <p style="border-left: 5px solid yellow; padding-left: 5px;">Latest Movies</p>
+        <div class="row">
+            <div class="col-md-2" style=" height: 300px;">
+                <img src="home/newfirst.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">Interceptor</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>98m
+                    <span class="float-right fdi-type" style="margin-left: 30px;">Movie</span></p>
+            </div>
+            
+            <div class="col-md-2" style=" height: 300px;">
+                <img src="home/lastseenalive.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">Last Seen Alive</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>95m
+                    <span class="float-right fdi-type" style="margin-left: 30px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px;">
+                <img src="home/whiteelephant.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">White Elephant</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>89m
+                    <span class="float-right fdi-type" style="margin-left: 30px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px;">
+                <img src="home/fireisland.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">Fire Island</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>105m
+                    <span class="float-right fdi-type" style="margin-left: 25px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px;">
+                <img src="home/theovernight.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">The Overnight</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>98m
+                    <span class="float-right fdi-type" style="margin-left: 30px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px;">
+                <img src="home/offseason.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">Offseason</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>83m
+                    <span class="float-right fdi-type" style="margin-left: 30px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="home/unhuman.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">Unhuman</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>87m
+                    <span class="float-right fdi-type" style="margin-left: 30px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="home/doublethreat.jpg" class="img-thumbnail" style="width: 100%; height: 243px;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">Double Threat</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>91m
+                    <span class="float-right fdi-type" style="margin-left: 30px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="home/hollywood.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">Hollywood Stargirl</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>105m
+                    <span class="float-right fdi-type" style="margin-left: 25px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="home/row19.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">Row 19</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2021
+                    <span class="dot"></span>77m
+                    <span class="float-right fdi-type" style="margin-left: 30px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="home/navalny.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">Navalny</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>98m
+                    <span class="float-right fdi-type" style="margin-left: 30px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="home/fatherstu.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">Father Stu</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>90m
+                    <span class="float-right fdi-type" style="margin-left: 30px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="home/kedibone.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0; font-weight: 450;">Kedibone</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2020
+                    <span class="dot"></span>94m
+                    <span class="float-right fdi-type" style="margin-left: 30px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="home/emergency.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0; font-weight: 450;">Emergency</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>105m
+                    <span class="float-right fdi-type" style="margin-left: 25px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="home/nosaints.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p class="name" style="font-size: 20px; margin-top: 0; font-weight: 450;">There Are No Saints </p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>105m
+                    <span class="float-right fdi-type" style="margin-left: 25px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="home/godspeed.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0; font-weight: 450;">Godspeed</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>119m
+                    <span class="float-right fdi-type" style="margin-left: 25px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="home/zerocontact.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0; font-weight: 450;">Zero Contact</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>96m
+                    <span class="float-right fdi-type" style="margin-left: 30px;">Movie</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="home/fantastic.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p class="name" style="font-size: 20px; margin-top: 0; font-weight: 450;">Fantastic Beasts: The Secrets Of Dumbledore</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">2022
+                    <span class="dot"></span>98m
+                    <span class="float-right fdi-type" style="margin-left: 30px;">Movie</span></p>
+            </div>
+        </div>
+        <!-- End Latest Movies -->
+    </div>
+    <!-- End Latest Movies -->
+    
+    <!-- Latest TV Shows -->
+    <div class="container" id="show">
+        <p style="border-left: 5px solid green; margin-top: 150px; padding-left: 5px;">Latest TV Show</p>
+        <div class="row">
+            <div class="col-md-2" style=" height: 300px;">
+                <div class="image"><img src="tvshows/londonkills.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                    <div class="middle">
+                        <a href="" style="text-decoration: none;"><div class="text">See More</div></a>
+                    </div>
+                </div>
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">London Kills</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 3
+                <span class="dot"></span>EPS 5
+                <span class="float-right fdi-type" style="margin-left: 50px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px;">
+                <div class="image"><img src="tvshows/outlaws.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                    <div class="middle">
+                        <a href="" style="text-decoration: none;"><div class="text">See More</div></a>
+                    </div>
+                </div>
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">The Outlaws</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 2
+                    <span class="dot"></span>EPS 6
+                    <span class="float-right fdi-type" style="margin-left: 50px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px;">
+                <img src="tvshows/timetraveler.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p class="name" style="font-size: 20px; margin-top: 0;font-weight: 450;">The Timetraveler's Wife</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 1
+                    <span class="dot"></span>EPS 4
+                    <span class="float-right fdi-type" style="margin-left: 50px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px;">
+                <img src="tvshows/topgear.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">Top Gear</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 32
+                    <span class="dot"></span>EPS 1
+                    <span class="float-right fdi-type" style="margin-left: 45px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px;">
+                <img src="tvshows/barry.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">Barry</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 3
+                    <span class="dot"></span>EPS 7
+                    <span class="float-right fdi-type" style="margin-left: 50px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px;">
+                <img src="tvshows/duncanville.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p style="font-size: 20px; margin-top: 0;font-weight: 450;">Duncanville</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 3
+                    <span class="dot"></span>EPS 6
+                    <span class="float-right fdi-type" style="margin-left: 50px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="tvshows/lastweek.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p  class="name" style="font-size: 20px; margin-top: 0;font-weight: 450;">Last Week Tonight With John Oliver</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 9
+                    <span class="dot"></span>EPS 13
+                    <span class="float-right fdi-type" style="margin-left: 45px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="tvshows/thebaby.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p  class="name" style="font-size: 20px; margin-top: 0;font-weight: 450;">The Baby</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS1
+                    <span class="dot"></span>EPS 7
+                    <span class="float-right fdi-type" style="margin-left: 50px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="tvshows/love.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p  class="name" style="font-size: 20px; margin-top: 0;font-weight: 450;">Love & Marriage: DC</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS1
+                    <span class="dot"></span>EPS 4
+                    <span class="float-right fdi-type" style="margin-left: 50px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="tvshows/expedition.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p  class="name" style="font-size: 20px; margin-top: 0;font-weight: 450;">Expedition Bigfoot</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 3
+                    <span class="dot"></span>EPS 12
+                    <span class="float-right fdi-type" style="margin-left: 45px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="tvshows/wehunt.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p  class="name" style="font-size: 20px; margin-top: 0;font-weight: 450;">We Hunt Together</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS2
+                    <span class="dot"></span>EPS 5
+                    <span class="float-right fdi-type" style="margin-left: 50px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="tvshows/theman.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p  class="name" style="font-size: 20px; margin-top: 0;font-weight: 450;">The Man Who Fell To Earth</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 1
+                    <span class="dot"></span>EPS 6
+                    <span class="float-right fdi-type" style="margin-left: 50px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="tvshows/firstlady.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p  class="name" style="font-size: 20px; margin-top: 0;font-weight: 450;">The First Lady</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 1
+                    <span class="dot"></span>EPS 8
+                    <span class="float-right fdi-type" style="margin-left: 50px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="tvshows/gaslit.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p  class="name" style="font-size: 20px; margin-top: 0;font-weight: 450;">Gaslit</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 1
+                    <span class="dot"></span>EPS 7
+                    <span class="float-right fdi-type" style="margin-left: 50px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="tvshows/dynasty.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p  class="name" style="font-size: 20px; margin-top: 0;font-weight: 450;">Dynasty</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 5
+                    <span class="dot"></span>EPS 14
+                    <span class="float-right fdi-type" style="margin-left: 45px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="tvshows/charmed.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p  class="name" style="font-size: 20px; margin-top: 0;font-weight: 450;">Charmed</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 4
+                    <span class="dot"></span>EPS 12
+                    <span class="float-right fdi-type" style="margin-left: 45px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="tvshows/billy.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p  class="name" style="font-size: 20px; margin-top: 0;font-weight: 450;">Billy The Kid</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 1
+                    <span class="dot"></span>EPS 8
+                    <span class="float-right fdi-type" style="margin-left: 50px;">TV</span></p>
+            </div>
+
+            <div class="col-md-2" style=" height: 300px; margin-top: 20px;">
+                <img src="tvshows/asthecrow.jpg" class="img-thumbnail" style="width: 100%;" alt="">
+                <p  class="name" style="font-size: 20px; margin-top: 0;font-weight: 450;">As The Crow Flies</p>
+                <p style="font-size: 15px; margin-top: 0px; color: gray;">SS 1
+                    <span class="dot"></span>EPS 8
+                    <span class="float-right fdi-type" style="margin-left: 50px;">TV</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- End Latest TV Shows -->
+    <hr style="color: white; height:50px; margin-top: 100px;">
+    <!-- Sign Up -->
+    <div class="signup">
+        <div class="container" id="sign">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6" style="margin-top: 50px; background: #262626; padding: 20px; border-radius: 20px;">
+                        <form >
+                            <p>Sign Up</p>
+                            <div class="row" style="margin-top: 30px;">
+                              <div class="col">
+                                <label style="color: white;">First Name</label>
+                                <input type="text" class="form-control" placeholder="First name">
+                              </div>
+                              <div class="col">
+                                <label style="color: white;">Last Name</label>
+                                <input type="text" class="form-control" placeholder="Last name">
+                              </div>
+                            </div>
+                            <div class="form-group" style="margin-top: 20px;">
+                                <label style="color: white;">Email address</label>
+                                <input type="email" class="form-control" placeholder="Enter email">
+                              </div>
+                              <div class="form-group" style="margin-top: 20px;">
+                                <label style="color: white;">Password</label>
+                                <input type="password" class="form-control" placeholder="Password">
+                              </div>
+                              <div class="form-group form-check" style="margin-top: 20px;">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" style="color: white;">I agree to all the Terms and Conditions</label>
+                              </div>
+                              <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Create account</button>
+                              <p style="font-size: 20px; margin-top: 20px;">Already have an account?<a href="">Log In</a></p>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Sign Up -->
+    <!-- End Body -->
+
+    <!-- Footer -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3" style="height: 160px; background: black; margin-top: 100px;">
+                <img src="home/logo1.png" style="margin-top: 50px;">
+            </div>
+            <div class="col-md-6" style="height: 160px; background: black; margin-top: 100px;">
+                <p style="color: gray; text-align: justify; margin-top: 10px;">MovieSpace is a review-aggregation website. Spacemeter is the most trusted measurement of quality for Movies and Tv Shows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, in ex. Iusto voluptatem quaerat in rem, itaque, a obcaecati expedita amet quia earum illo architecto molestias esse distinctio doloruma</p>
+            <hr style="color: white;">
+                <p style="margin-top: -10px; color: gray;"><a href="" style="color: gray;">Privacy Policy</a> &ensp;&ensp; <a href="" style="color: gray">Terms and Conditions</a>&ensp;&ensp; Copyright &copy; MovieSpace All rights reserved</p>
+            </div>
+            <div class="col-md-3" style="height: 160px; background: black; margin-top: 100px;">
+                <p style="font-size: x-large; color: white; font-weight: bold; margin-top: 10px;">Follow Us</p>
+                <div class="icon">
+                    <img src="home/facebook.png" style="height: 25px; width: 25px;">
+                    <img src="home/twitter.png" style="height: 25px; width: 25px; margin-left: 15px;">
+                    <img src="home/instagram.png" style="height: 25px; width: 25px; margin-left: 15px;">
+                    <img src="home/pinterest-circular-logo-symbol.png" style="height: 25px; width: 25px; margin-left: 15px;">
+                    <img src="home/youtube (1).png" style="height: 35px; width: 35px; margin-left: 15px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+</body>
+</html>
