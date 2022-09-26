@@ -29,6 +29,7 @@ nav ul li{
 
 nav ul li:hover{
     background: #E42024;
+    color: black;
 }
 
 nav ul li a{
